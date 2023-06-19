@@ -1,16 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 void main(){
-int i,j,k,a;
+int a,b,k,c;
 clrscr();
-for(i=5;i>=1;i--){
+for(a=5;a>=1;a--){
 for(k=1;k<i;k++){
 printf(" ");
 }
-   for(j=i;j<=5;j++){
+   for(b=i;b<=5;b++){
    printf("%d",j);
    }
-   for(a=4;a>=i;a--){
+   for(c=4;c>=i;c--){
    printf("%d",a);
    }
    printf("\n");
